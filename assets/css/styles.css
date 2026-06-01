@@ -148,6 +148,15 @@ h2 {
   text-align: center;
 }
 
+.paper-image {
+  display: block;
+  width: 190px;
+  max-width: 100%;
+  height: auto;
+  background: #ffffff;
+  border-radius: 6px;
+}
+
 .logo-thumb {
   display: block;
   object-fit: contain;
@@ -238,6 +247,12 @@ h2 {
   .logo-thumb {
     width: 100%;
     max-width: 260px;
+  }
+
+  .paper-image {
+    width: 100%;
+    max-width: 260px;
+    height: auto;
   }
 
   .award-list {
